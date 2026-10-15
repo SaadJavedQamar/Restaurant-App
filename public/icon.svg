@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Cloche / Plate bell dome -->
+  <path d="M256 120 C242 120 232 130 232 144 C232 148 233 151 235 154 C160 168 112 226 112 296 L400 296 C400 226 352 168 277 154 C279 151 280 148 280 144 C280 130 270 120 256 120 Z" fill="url(#grad)"/>
+  <!-- Plate base -->
+  <rect x="96" y="312" width="320" height="24" rx="12" fill="#f8fafc"/>
+  <!-- Gaming D-Pad & Action Buttons overlay on cloche -->
+  <circle cx="210" cy="245" r="9" fill="#0f172a" opacity="0.85"/>
+  <circle cx="256" cy="225" r="9" fill="#0f172a" opacity="0.85"/>
+  <circle cx="302" cy="245" r="9" fill="#0f172a" opacity="0.85"/>
+  <!-- Steam / Game pulse waves -->
+  <path d="M190 90 Q 210 60 190 30" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M256 80 Q 276 50 256 20" stroke="#fbbf24" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M322 90 Q 342 60 322 30" stroke="#ea580c" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- Joypad controller bottom insignia -->
+  <rect x="160" y="360" width="192" height="60" rx="30" fill="url(#grad)"/>
+  <circle cx="205" cy="390" r="14" fill="#0f172a"/>
+  <circle cx="307" cy="390" r="10" fill="#0f172a"/>
+  <circle cx="282" cy="378" r="8" fill="#0f172a"/>
+</svg>

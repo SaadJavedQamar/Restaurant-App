@@ -1,0 +1,6 @@
+{
+  "name": "BistroPulse - Gamified Restaurant Order Tracking",
+  "description": "Real-time restaurant order tracking PWA with waiting mini-games, instant audio-visual kitchen alerts, and staff kitchen display system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
